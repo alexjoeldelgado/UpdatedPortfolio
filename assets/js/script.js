@@ -2,7 +2,7 @@ $(document).ready( () => $('.dropdown-trigger').dropdown());
 
 const portfolioObjects = [{
   name: "VEG-HEAD",
-  screenshot: "./assets/images/VH-ss.JPG",
+  screenshot: "./assets/images/VH-ss.jpg",
   url: "https://alexjoeldelgado.github.io/veg-head/",
   dscr: "A web application designed for Vegetarians to search for local vegetarian-friendly restaurants and vegetarian recipes."
 },{
@@ -25,6 +25,11 @@ const portfolioObjects = [{
   screenshot: "./assets/images/PG-ss.PNG",
   url: "https://alexjoeldelgado.github.io/PasswordGenerator/",
   dscr: "A web application designed to generate a password with set parameters."
+},{
+  name: "Team Profile Generator",
+  screenshot: "./assets/images/TPG-ss.PNG",
+  url: "https://github.com/alexjoeldelgado/TeamProfileGenerator",
+  dscr: "A web application designed to generate an HTML file using CLI prompts for user input."
 }]
 
 portfolioObjects.forEach(object => {
